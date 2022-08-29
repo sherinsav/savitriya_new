@@ -1,0 +1,121 @@
+<div class="contact-us">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5 form-group">
+                <div class="contact-info">
+                    <div class="home-sub-headlines">Contact Us</div>
+                    <p class="contact-sub-headlines">Let's Create Big Stories Together</p>
+                    <p class="mb-md-5 mb-sm-2">Have a project we can help with? Give us a call or reach out to us on
+                        social media or drop a message to us with your latest idea.</p>
+                    <div class="address form-group">
+                        <div class="icon-bg mt-1">
+                            <i class="stpl-location"></i>
+                        </div>
+                        <div class="content">
+                            <div class="contact-headlines">Address</div>
+                            <p class="mb-0"><%= data.shop_address %></p>
+                        </div>
+                    </div>
+                    <div class="phone-details form-group">
+                        <div class="icon-bg mt-1">
+                            <i class="stpl-mobile-app"></i>
+                        </div>
+                        <div class="content">
+                            <div class="contact-headlines">Call for queries</div>
+                            <a href="tel:9227788339"><%= data.shop_phone1 %></a><br>
+                            <a href="tel:9408493643"> <%= data.shop_phone2 %></a>
+                        </div>
+                    </div>
+                    <div class="email form-group">
+                        <div class="icon-bg mt-1">
+                            <i class="stpl-mail"></i>
+                        </div>
+                        <div class="content">
+                            <div class="contact-headlines">Email Us</div>
+                            <a href="mailto:sales@savitriya.com"><%= data.shop_email %></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="message-form" style="text-align: center;">
+                    <div class="heading text-center">Drop A Message</div>
+                    <div class="sub-text text-center mb-2">Let's talk for your business requirements</div>
+                    <form>
+                        <input class="name" value="Name" type="text" />
+                        <input class="email" value="Email" type="email" />
+                        <div class="d-flex">
+                            <input class="phone mr-4" value="Phone" />
+                            <input class="skypeid" value="Skype ID" />
+                        </div>
+                        <div class="d-flex">
+                            <input class="company mr-4" value="Company" type="text" />
+                            <input class="website" value="Website" type="text" />
+                        </div>
+                        <textarea name="message" rows="4" cols="50">Message</textarea>
+                        <input class="subimt-btn" value="Send Message" type="submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="company">
+                    <div class="heading">COMPANY</div>
+                    <div class="footer-links">
+                        <a href="#">About Us</a>
+                        <a href="#">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="services">
+                    <div class="heading">SERVICES</div>
+                    <div class="footer-links">
+                        <a href="#">Application Integration</a>
+                        <a href="#">Product Development</a>
+                        <a href="#">Cloud Migration</a>
+                        <a href="#">UX Audit</a>
+                        <a href="#">Web Application Development</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="support">
+                    <div class="heading">SUPPORT</div>
+                    <div class="footer-links">
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row terms-policy">
+            <div class="col-lg-4 col-6">
+                <div class="d-flex">
+                    <a href="#">Terms of Service</a>
+                    <div class="middle-line"></div>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-6 social-media d-flex">
+                <a href="https://www.facebook.com/pages/Savitriya-Technologies-Pvt-Ltd/158165960884777"><i
+                        class="stpl-facebook"></i></a>
+                <a href="https://twitter.com/savitriya"> <i class="stpl-twitter"></i></a>
+                <a href="https://in.linkedin.com/company/savitriya-technologies-pvt.-ltd."><i
+                        class="stpl-linkedln"></i></a>
+            </div>
+            <div class="col-lg-4 copywrite">
+                <div class="d-flex">© 2022 &nbsp;<span style="color: #E71A3B;"> <%= data.shop_name %>&nbsp;</span>All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
