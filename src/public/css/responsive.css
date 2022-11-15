@@ -3,15 +3,12 @@
     .navbar .navbar-toggler {
         border: none;
     }
-
     header .navbar {
         position: relative;
     }
-
-    .navbar-light .navbar-toggler-icon {
+      .navbar-light .navbar-toggler-icon {
         background-image: url(../images/hamburger.png) !important;
     }
-
     header .navbar .navbar-mobile {
         position: fixed;
         background-color: #000;
@@ -24,7 +21,6 @@
         align-items: center;
         box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
     }
-
     /* header .navbar{
             position: fixed;
             top: 0;
@@ -40,12 +36,12 @@
         width: 40%;
         padding: 10px;
     }
-
-
+    header .navbar .navbar-brand img{
+        width: 130px;
+    }
     header .navbar .navbar-toggler {
         z-index: 9999;
     }
-
     header .navbar-collapse .navbar-nav {
         position: fixed;
         inset: 0px;
@@ -57,7 +53,6 @@
         background-color: rgba(0, 0, 0, 1);
         backdrop-filter: blur(10px);
     }
-
     header .navbar-nav .nav-item {
         padding: 15px 0;
         border-bottom: 1px solid #a0a0a0;
@@ -68,15 +63,12 @@
     header .navbar-expand-lg .navbar-nav .nav-link:hover {
         border-bottom: 0;
     }
-
     header .navbar-nav {
         margin-right: 0;
     }
-
     header .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0;
     }
-
     header .navbar .nav-item .dropdown-toggle::before {
         content: "\f107";
         font: normal normal normal 14px/1 FontAwesome;
@@ -88,7 +80,6 @@
     header .navbar .nav-item .dropdown-toggle.open::before{
         content: "\f106";
     }
-
     /* header .navbar .navbar-collapse .lets-talk {
         border-radius: 7px;
         padding: 16px 10px;
@@ -96,7 +87,6 @@
         font-size: 15px;
         border: none;
     } */
-
     header .nav-item:hover ul.dropdown-menu {
         position: unset;
         display: none;
@@ -108,7 +98,6 @@
         width:50%;
         float: left;
     }
-
     header .navbar-collapse .lets-talk {
         font-family: 'Nunito';
         font-size: 16px;
@@ -119,11 +108,12 @@
         margin: unset;
         border: 0;
     }
-
     header .navbar-nav {
         margin-left: 0;
     }
-
+    .middle-section {
+        padding-top: 70px;
+    }
     .navbar .navbar-nav .dropdown-menu {
         padding: 0;
         border: none;
@@ -139,12 +129,10 @@
         font-size: 13px;
         padding: 2px 0;
     }
-
     .dropdown-menu .sub-nav-heading {
         margin-top: 20px;
         margin-bottom: 5px;
     }
-
     .dropdown-menu .field .hire-team {
         margin-top: 30px;
         margin-left: 30px;
@@ -154,7 +142,6 @@
         border-radius: 0;
         padding: 0;
     }
-
     .dropdown-menu.show {
         display: block !important;
         visibility: visible;
@@ -166,38 +153,30 @@
     .home-page .banner-content {
         padding: 0;
     }
-
     .home-page .banner-wrapper .banner-content .banner-text {
         font-size: 14px;
         padding: 10px 0px 0px 0;
     }
-
     .home-page .banner-headline {
         font-size: 25px;
     }
-
     .home-page .banner-wrapper .banner-content button {
         padding: 2px 8px;
         font-size: 12px;
     }
-
     .home-page .banner-wrapper .image-content {
         display: none;
     }
-
     .home-page .our-service .form-group {
         margin-bottom: 0;
     }
-
     .home-page .our-service .our-service-header {
         margin-top: 0;
         padding: 0;
     }
-
     .home-page .banner-wrapper {
         margin-bottom: 25px;
     }
-
     .home-page .our-process-wrapper .line {
         display: none;
     }
@@ -205,33 +184,26 @@
         height: auto;
         display: unset;
     }
-
     .home-page .testimonials-wrapper .images-design {
         text-align: center;
     }
-
     .home-page .testimonials-wrapper .carousel-wrapper .client-review-wrapper {
         padding: 20px 10px 10px 10px;
         font-size: 15px;
         border-radius: 10px;
     }
-
     .carousel-wrapper .owl-nav {
         padding: 0px;
     }
-
     .images-design .review-client-pic {
         position: unset;
     }
-
     .home-page .client-testimonials .testimonials-wrapper .images-design>div, .home-page .client-testimonials .testimonials-wrapper .images-design .doted-design, .home-page .our-service .doted-design {
         display: none;
     }
-
     .home-page .our-service-card .card-headline {
         font-size: 23px;
     }
-
     .our-latest-projects {
         margin-top: 10px;
         margin-bottom: 50px;
@@ -267,7 +239,6 @@
     .footer::after{
         height: 100px;
     }
-
     .contact-us .form-group {
         margin-bottom: 20px;
     }
@@ -278,37 +249,29 @@
     .home-page .our-process {
         margin-top: 50px;
     }
-
     .home-page .our-process .our-process-wrapper {
         margin-top: 0px;
     }
-
     .home-page .our-process-wrapper .our-process-icon {
         margin: auto;
         margin-bottom: 55px;
         animation: none;
     }
-
     .home-page .our-process-wrapper .form-group {
         padding: 10px 0 10px 0;
     }
-
     .our-process .our-process-wrapper .our-process-content {
         text-align: center;
     }
-
     .home-page.form-group {
         margin-top: 70px;
     }
-
     .home-page .home-page-sub-headlines {
         font-size: 25px;
     }
-
     .our-process-content.in-view {
         animation: none;
     }
-
     .footer .terms-policy {
         padding-top: 30px;
         margin-top: 50px;
@@ -320,81 +283,115 @@
         justify-content: center;
         margin-top: 20px;
     }
-
     .home-page .contact-us {
         margin-top: 20px;
     }
-
     .home-page .testimonials-wrapper .carousel-wrapper .clinet-review-wrapper {
         padding: 90px 20px 30px 20px;
     }
-
     .home-page .our-service-card {
         padding: 20px 10px 10px 10px;
     }
-
     .home-page .our-service .card-text {
         margin: 10px 0 15px 0;
     }
-
-    .app-development .banner-content {
-        padding: 50px 0;
+    .technologies .banner-content .left-section{
+        padding-right: 0;
     }
-
     .app-development .ai-wrapper .ai-image {
         max-width: 300px;
     }
-
     .ai-content .ai-list-wrapper .ai-list {
         margin-left: 20px;
         margin-bottom: 0;
     }
-
     .app-development .ai-wrapper.form-group {
         margin: 30px 0;
     }
-
     .app-development .ai-content .ai-headline {
         font-size: 25px;
         margin-bottom: 20px;
     }
-
     .app-development .ai-list-wrapper {
         margin-top: 20px;
     }
-
+    .app-development .banner-content{
+        padding: 50px 0;
+    }
+    .technologies .banner-content .right-section{
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
     .banner-content .banner-headline, .banner-content .banner-headline h1 {
         padding: 0px 0 10px 0;
         font-size: 25px;
     }
-
     .bubble-circle {
         width: 300px !important;
         height: 300px !important;
     }
-
     .banner-wrapper .banner-content .banner-text {
         padding: 10px 15px 10px 0;
+    }
+    .technologies .ios-tech .expertise-img{
+        margin: 0 auto 30px;
+        display: block;
+    }
+    .technologies .development-services li span{
+        width: 100%;
+        max-width: 375px;
+    }
+    .technologies .native-features .features br{
+        display: none;
+    }
+    .technologies .native-features .features .sec-title{
+        min-height: 50px;
+        margin-top: 15px;
+    }
+    .technologies .native-features .features-row2{
+        margin-top: 0;
+    }
+    .technologies .native-features .features{
+        margin-bottom: 20px;
+    }
+    .technologies .choose-us .savitriya-facts .boxes{
+        width: 45%;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .technologies .choose-us .savitriya-facts .boxes.box2{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .technologies .choose-us .savitriya-facts .boxes.box3{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .technologies .choose-us .savitriya-facts .boxes.box4{
+        margin-top: 30px;
+    }
+    .technologies .banner-content{
+        align-items: center;
+    }
+    .technologies .banner-content .right-section img{
+        max-width: 200px;
     }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
     header .navbar-collapse .lets-talk {
         margin-top: 0;
     }
-
     .home-page .testimonials-wrapper .images-design .client-b {
         left: 0;
     }
-
     .home-page .testimonials-wrapper .images-design .client-d {
         right: 0;
     }
-
     header .navbar-collapse .lets-talk {
         margin-left: 90px;
         margin-top: 20px;
     }
-
     header .navbar-nav {
         margin-left: 0px;
     }
@@ -419,6 +416,14 @@
     .footer .heading.open:after{
         content: "\f106";
     }
+    .app-development .banner-content {
+        padding: 50px 0;
+        display: block;
+    }
+    
+}
+@media (max-width:666px) {
+    
 }
 
 

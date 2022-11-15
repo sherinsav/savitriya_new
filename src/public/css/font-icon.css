@@ -24,80 +24,176 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-  .stpl-ipad:before {
-    content: "\e915";
+
+  .stpl-data-analytics:before {
+    content: "\e938";
   }
-  .stpl-iphone:before {
-    content: "\e91a";
+  .stpl-experienced:before {
+    content: "\e937";
   }
-  .stpl-ui-design:before {
-    content: "\e912";
+  .stpl-save-money:before {
+    content: "\e936";
   }
-  .stpl-arrow-circle-o-left:before {
-    content: "\e900";
+  .stpl-bug:before {
+    content: "\e934";
   }
-  .stpl-arrow-circle-o-right:before {
-    content: "\e901";
+  .stpl-responsive-design:before {
+    content: "\e935";
   }
-  .stpl-facebook:before {
-    content: "\e902";
+  .stpl-realtime:before {
+    content: "\e933";
   }
-  .stpl-linkedln:before {
-    content: "\e903";
+  .stpl-data-cleaning:before {
+    content: "\e931";
   }
-  .stpl-location:before {
-    content: "\e904";
+  .stpl-user-friendly:before {
+    content: "\e932";
   }
-  .stpl-mail:before {
+  .stpl-interchangeable:before {
+    content: "\e930";
+  }
+  .stpl-flexible:before {
+    content: "\e92d";
+  }
+  .stpl-binding:before {
+    content: "\e92e";
+  }
+  .stpl-approach:before {
+    content: "\e92f";
+  }
+  .stpl-secure-shield:before {
+    content: "\e92b";
+  }
+  .stpl-seo:before {
+    content: "\e92c";
+  }
+  .stpl-one-page:before {
+    content: "\e928";
+  }
+  .stpl-feather-light:before {
+    content: "\e929";
+  }
+  .stpl-technical-support:before {
+    content: "\e92a";
+  }
+  .stpl-easy-testing:before {
     content: "\e905";
   }
-  .stpl-mobile-app:before {
+  .stpl-open-source:before {
+    content: "\e926";
+  }
+  .stpl-speedometer:before {
+    content: "\e927";
+  }
+  .stpl-app-transfer:before {
+    content: "\e924";
+  }
+  .stpl-menu:before {
+    content: "\e920";
+  }
+  .stpl-code:before {
+    content: "\e921";
+  }
+  .stpl-target:before {
+    content: "\e922";
+  }
+  .stpl-school-materials:before {
+    content: "\e923";
+  }
+  .stpl-easy:before {
+    content: "\e925";
+  }
+  .stpl-crowd:before {
+    content: "\e900";
+  }
+  .stpl-rocket-thin:before {
+    content: "\e901";
+  }
+  .stpl-customize:before {
+    content: "\e902";
+  }
+  .stpl-reusability:before {
+    content: "\e903";
+  }
+  .stpl-capacitor:before {
+    content: "\e904";
+  }
+  .stpl-reload:before {
     content: "\e906";
   }
-  .stpl-pen-pointer:before {
+  .stpl-arrow-circle-o-left:before {
     content: "\e907";
   }
-  .stpl-desktop-code:before {
+  .stpl-arrow-circle-o-right:before {
     content: "\e908";
   }
-  .stpl-ab-testing:before {
+  .stpl-facebook:before {
     content: "\e909";
   }
-  .stpl-rocket:before {
+  .stpl-linkedln:before {
     content: "\e90a";
   }
-  .stpl-document:before {
+  .stpl-location:before {
     content: "\e90b";
   }
-  .stpl-screen-analytics:before {
+  .stpl-mail:before {
     content: "\e90c";
   }
-  .stpl-support:before {
+  .stpl-mobile-app:before {
     content: "\e90d";
   }
-  .stpl-wifi-tower:before {
+  .stpl-pen-pointer:before {
     content: "\e90e";
   }
-  .stpl-protection-shield:before {
+  .stpl-desktop-code:before {
     content: "\e90f";
   }
-  .stpl-cloud-database:before {
+  .stpl-ab-testing:before {
     content: "\e910";
   }
-  .stpl-phone-o:before {
+  .stpl-rocket:before {
     content: "\e911";
   }
-  .stpl-direction-right:before {
+  .stpl-document:before {
+    content: "\e912";
+  }
+  .stpl-screen-analytics:before {
+    content: "\e913";
+  }
+  .stpl-support:before {
+    content: "\e914";
+  }
+  .stpl-wifi-tower:before {
+    content: "\e915";
+  }
+  .stpl-protection-shield:before {
     content: "\e916";
   }
-  .stpl-twitter:before {
+  .stpl-cloud-database:before {
     content: "\e917";
   }
-  .stpl-angle-down:before {
+  .stpl-phone-o:before {
     content: "\e918";
   }
-  .stpl-long-arrow-right:before {
+  .stpl-ui-design:before {
     content: "\e919";
+  }
+  .stpl-ipad:before {
+    content: "\e91a";
+  }
+  .stpl-direction-right:before {
+    content: "\e91b";
+  }
+  .stpl-twitter:before {
+    content: "\e91c";
+  }
+  .stpl-angle-down:before {
+    content: "\e91d";
+  }
+  .stpl-long-arrow-right:before {
+    content: "\e91e";
+  }
+  .stpl-iphone:before {
+    content: "\e91f";
   }
   

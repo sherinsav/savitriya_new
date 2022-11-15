@@ -1483,9 +1483,9 @@ header .navbar .navbar-nav .nav-item .dropdown-toggle::after {
 .technologies .development-services li span{
     background: #EBF3FF;
     border-radius: 5px;
-    padding: 10px 40px;
+    padding: 10px 0;
     display: inline-block;
-    min-width: 350px;
+    width: 375px;
     margin: 0 auto;
     font-weight: 300;
 }
@@ -1587,7 +1587,22 @@ header .navbar .navbar-nav .nav-item .dropdown-toggle::after {
     margin-top: 50px;
     color: #e71a3b;
 }
-
+.technologies .native-features{
+    margin-top: 60px;
+}
+.technologies .native-features .features{
+    text-align: center;
+    font-weight: 300;
+}
+.technologies .native-features .features i{
+    font-size: 30px;
+    color: #e71a3b;
+    display: block;
+}
+.technologies .native-features .features-row2{
+    justify-content: center;
+    margin-top: 48px;
+}
 /*#endregion */
 
 /* #region-------------Footer------------*/
